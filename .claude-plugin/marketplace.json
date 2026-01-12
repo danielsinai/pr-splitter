@@ -1,0 +1,14 @@
+{
+  "name": "pr-splitter",
+  "description": "Split large PRs into atomic, dependency-ordered pull requests using git worktrees",
+  "version": "1.0.0",
+  "author": "Community",
+  "license": "MIT",
+  "keywords": ["git", "pr", "pull-request", "worktree", "split", "atomic"],
+  "plugins": [
+    {
+      "name": "pr-splitter",
+      "path": "."
+    }
+  ]
+}
