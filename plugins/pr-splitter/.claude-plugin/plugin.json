@@ -1,0 +1,8 @@
+{
+  "name": "pr-splitter",
+  "description": "Split large PRs into atomic, dependency-ordered pull requests using git worktrees. Supports TypeScript/JavaScript, Python, and Go.",
+  "author": {
+    "name": "danielsinai",
+    "url": "https://github.com/danielsinai"
+  }
+}

@@ -1,14 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pr-splitter",
   "description": "Split large PRs into atomic, dependency-ordered pull requests using git worktrees",
-  "version": "1.0.0",
-  "author": "danielsinai",
-  "license": "MIT",
-  "keywords": ["git", "pr", "pull-request", "worktree", "split", "atomic"],
+  "owner": {
+    "name": "danielsinai",
+    "url": "https://github.com/danielsinai"
+  },
   "plugins": [
     {
       "name": "pr-splitter",
-      "path": "."
+      "description": "Split large PRs into atomic, dependency-ordered pull requests using git worktrees. Supports TypeScript/JavaScript, Python, and Go.",
+      "version": "1.0.0",
+      "author": {
+        "name": "danielsinai",
+        "url": "https://github.com/danielsinai"
+      },
+      "source": "./plugins/pr-splitter",
+      "category": "development"
     }
   ]
 }

@@ -37,18 +37,18 @@ your-repo/
 Add this repository as a marketplace source, then install the plugin:
 
 ```bash
-claude mcp add-marketplace danielsinai/pr-splitter
+claude plugin marketplace add danielsinai/pr-splitter
 claude plugin install pr-splitter
 ```
 
 ### Manual Installation
 
-Clone this repository and copy the contents to your project's `.claude/` directory:
+Clone this repository and copy the plugin contents to your project's `.claude/` directory:
 
 ```bash
 git clone https://github.com/danielsinai/pr-splitter.git
-cp -r pr-splitter/skills/pr-splitter .claude/skills/
-cp -r pr-splitter/commands/* .claude/commands/
+cp -r pr-splitter/plugins/pr-splitter/skills/pr-splitter .claude/skills/
+cp -r pr-splitter/plugins/pr-splitter/commands/* .claude/commands/
 ```
 
 ## Usage
